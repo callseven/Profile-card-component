@@ -1,0 +1,334 @@
+/* github.com/callseven/
+*/
+
+* {
+    margin: 0;
+}
+
+html,
+body {
+    --Darkcyan: hsl(185, 75%, 39%);
+    --Verydarkdesaturatedblue: hsl(229, 23%, 23%);
+    --Darkgrayishblue: hsl(227, 10%, 46%);
+    --Darkgray: hsl(0, 0%, 59%);
+    height: 100%;
+    -webkit-font-smoothing: antialiased;
+}
+
+body {
+    display: block;
+    place-items: center;
+    font-family: Kumbh Sans, sans-serif;
+    font-size: 18px;
+    background: var(--Darkcyan);
+    width: 375px;
+}
+
+main {
+    background: url(images/bg-pattern-top.svg) -360px -510px no-repeat, url(images/bg-pattern-bottom.svg) 620px 375px no-repeat;
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    position: absolute;
+}
+
+.nome h1 {
+    font-size: 1.15rem;
+    width: 130px;
+    top: 7.5rem;
+    left: -25px;
+    text-align: center;
+    position: absolute;
+}
+
+.card {
+    background: white;
+    width: 350px;
+    height: 370px;
+    border-radius: 15px;
+    margin: 170px auto;
+    box-shadow: 10px 10px 25px 10px hsla(180, 57%, 37%, 0.527);
+}
+
+.topper>img {
+    border-radius: 15px 15px 0 0;
+    width: 350px;
+    object-fit: cover;
+}
+
+.nome {
+    font-size: 18px;
+    font-weight: 700;
+    color: var(--Verydarkdesaturatedblue);
+    width: 440px;
+    text-align: center;
+    margin: auto;
+}
+
+.nome span>img {
+    width: 90px;
+    margin-left: -81px;
+    margin-top: -106px;
+    clip-path: circle(40%);
+    padding: 12px;
+    position: absolute;
+}
+
+.nome span {
+    position: absolute;
+    top: 100px;
+    left: 10px;
+    border-radius: 50%;
+    background: transparent;
+    width: 130px;
+    height: 130px;
+}
+
+div .nome {
+    background-color: white;
+    border-radius: 50%;
+    width: 101px;
+    height: 101px;
+    /* overflow: hidden; */
+    position: relative;
+    margin-top: -56px;
+    margin-left: 120px;
+    display: flex;
+    z-index: 4;
+}
+
+.idade {
+    margin-left: 220px;
+    margin-top: 20px;
+    color: var(--Darkgray);
+}
+
+.cidade {
+    font-size: 14px;
+    margin-left: 150px;
+    margin-top: 10px;
+    color: var(--Darkgray);
+}
+
+.description1 {
+    font-size: 11px;
+    margin-left: 50px;
+    margin-top: 5px;
+    color: var(--Darkgray);
+    letter-spacing: 0.1rem;
+}
+
+.description2 {
+    font-size: 11px;
+    margin-left: 160px;
+    margin-top: 5px;
+    color: var(--Darkgray);
+    letter-spacing: 0.1rem;
+}
+
+.description3 {
+    font-size: 11px;
+    margin-left: 250px;
+    margin-top: 6px;
+    color: var(--Darkgray);
+    letter-spacing: 0.1rem;
+}
+
+hr {
+    margin-top: 20px;
+    border-color: rgba(247, 243, 243, 0.247);
+}
+
+.followers1 {
+    font-weight: 700;
+    margin-left: 60px;
+    margin-top: 20px;
+}
+
+.followers2 {
+    font-weight: 700;
+    margin-left: 150px;
+    margin-top: -42px;
+}
+
+.followers3 {
+    font-weight: 700;
+    margin-left: 250px;
+    margin-top: -42px;
+}
+
+footer {
+    font-size: 12px;
+    font-family: 'Poppins', sans-serif;
+    color: white;
+    text-decoration: none;
+    margin-top: -110px;
+    margin-left: auto;
+    text-align: center;
+    position: relative;
+    padding-bottom: 20px;
+}
+
+footer a {
+    text-decoration: none;
+}
+
+footer a:hover {
+    color: var(--Darkcyan);
+}
+
+footer a:link {
+    color: var(--Verydarkdesaturatedblue);
+    text-decoration: none;
+}
+
+
+/* DESKTOP */
+
+@media (min-width: 1440px) {
+    body {
+        display: block;
+        place-items: center;
+        font-family: Kumbh Sans, sans-serif;
+        font-size: 18px;
+        background: var(--Darkcyan);
+        width: 375px;
+    }
+    main {
+        background: url(images/bg-pattern-top.svg) -360px -510px no-repeat, url(images/bg-pattern-bottom.svg) 620px 375px no-repeat;
+        height: 100%;
+        width: 100%;
+        margin: 0;
+        position: absolute;
+    }
+    .nome h1 {
+        font-size: 1.15rem;
+        width: 130px;
+        top: 7.5rem;
+        left: -25px;
+        text-align: center;
+        position: absolute;
+    }
+    .card {
+        background: white;
+        width: 350px;
+        height: 370px;
+        border-radius: 15px;
+        margin: 170px auto;
+        box-shadow: 10px 10px 25px 10px hsla(180, 57%, 37%, 0.527);
+    }
+    .topper>img {
+        border-radius: 15px 15px 0 0;
+        width: 350px;
+        object-fit: cover;
+    }
+    .nome {
+        font-size: 18px;
+        font-weight: 700;
+        color: var(--Verydarkdesaturatedblue);
+        width: 440px;
+        text-align: center;
+        margin: auto;
+    }
+    .nome span>img {
+        width: 90px;
+        margin-left: -81px;
+        margin-top: -106px;
+        clip-path: circle(40%);
+        padding: 12px;
+        position: absolute;
+    }
+    .nome span {
+        position: absolute;
+        top: 100px;
+        left: 10px;
+        border-radius: 50%;
+        background: transparent;
+        width: 130px;
+        height: 130px;
+    }
+    div .nome {
+        background-color: white;
+        border-radius: 50%;
+        width: 101px;
+        height: 101px;
+        /* overflow: hidden; */
+        position: relative;
+        margin-top: -56px;
+        margin-left: 120px;
+        display: flex;
+        z-index: 4;
+    }
+    .idade {
+        margin-left: 220px;
+        margin-top: 20px;
+        color: var(--Darkgray);
+    }
+    .cidade {
+        font-size: 14px;
+        margin-left: 150px;
+        margin-top: 10px;
+        color: var(--Darkgray);
+    }
+    .description1 {
+        font-size: 11px;
+        margin-left: 50px;
+        margin-top: 5px;
+        color: var(--Darkgray);
+        letter-spacing: 0.1rem;
+    }
+    .description2 {
+        font-size: 11px;
+        margin-left: 160px;
+        margin-top: 5px;
+        color: var(--Darkgray);
+        letter-spacing: 0.1rem;
+    }
+    .description3 {
+        font-size: 11px;
+        margin-left: 250px;
+        margin-top: 6px;
+        color: var(--Darkgray);
+        letter-spacing: 0.1rem;
+    }
+    hr {
+        margin-top: 20px;
+        border-color: rgba(247, 243, 243, 0.247);
+    }
+    .followers1 {
+        font-weight: 700;
+        margin-left: 60px;
+        margin-top: 20px;
+    }
+    .followers2 {
+        font-weight: 700;
+        margin-left: 150px;
+        margin-top: -42px;
+    }
+    .followers3 {
+        font-weight: 700;
+        margin-left: 250px;
+        margin-top: -42px;
+    }
+    footer {
+        font-size: 12px;
+        font-family: 'Poppins', sans-serif;
+        color: white;
+        text-decoration: none;
+        margin-top: -110px;
+        margin-left: auto;
+        text-align: center;
+        position: relative;
+        padding-bottom: 20px;
+    }
+    footer a {
+        text-decoration: none;
+    }
+    footer a:hover {
+        color: var(--Darkcyan);
+    }
+    footer a:link {
+        color: var(--Verydarkdesaturatedblue);
+        text-decoration: none;
+    }
+}
