@@ -1,5 +1,5 @@
 # Desafio Criar Profile Card Component Challenge Hub 
-link> https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ/hub/profile-card-component-Z8nP4mZHQ
+link> https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ
 
 Minha solução:
 
