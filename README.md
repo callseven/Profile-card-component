@@ -3,9 +3,8 @@ link> https://www.frontendmentor.io/challenges/profile-card-component-cfArpWshJ/
 
 Minha solução:
 
-![desktop](https://user-images.githubusercontent.com/7409421/149055675-b6ab8a03-ac2a-44b5-9024-debff6083d5a.png)
+![Desktop](https://user-images.githubusercontent.com/7409421/152077239-7e87f03c-8ce0-4d45-87f2-b2773981ac7b.png)
 
-![mobile](https://user-images.githubusercontent.com/7409421/149055681-83900f76-0bc5-46f2-8f71-30df3e3ac8db.png)
 
 
 ## Bem-vindo! - Welcome! 👋
